@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'legion/legion',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'legion/legion' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'omaralalwi/php-builders' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => 'd9c731264f9dc24ee864c51cfb8e6d0a4a3d3b8d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../omaralalwi/php-builders',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'omaralalwi/php-py' => array(
+            'pretty_version' => '1.0.3',
+            'version' => '1.0.3.0',
+            'reference' => '0a924e329d5e1baffb695f826142e31f28934912',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../omaralalwi/php-py',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

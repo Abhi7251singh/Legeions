@@ -1,0 +1,133 @@
+{
+    "packages": [
+        {
+            "name": "omaralalwi/php-builders",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omaralalwi/php-builders.git",
+                "reference": "d9c731264f9dc24ee864c51cfb8e6d0a4a3d3b8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omaralalwi/php-builders/zipball/d9c731264f9dc24ee864c51cfb8e6d0a4a3d3b8d",
+                "reference": "d9c731264f9dc24ee864c51cfb8e6d0a4a3d3b8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2025-01-16T23:02:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omaralalwi\\PhpBuilders\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "omar alalwi",
+                    "email": "omaralwi2010@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "sample php traits to add ability to use builder design patterns with easy in PHP applications",
+            "homepage": "https://github.com/omaralalwi/php-builders",
+            "keywords": [
+                "builder-pattern",
+                "builders",
+                "design-patterns",
+                "fluent-interface",
+                "object-creation",
+                "omaralalwi",
+                "php",
+                "php-builders",
+                "php-patterns",
+                "traits"
+            ],
+            "support": {
+                "issues": "https://github.com/omaralalwi/php-builders/issues",
+                "source": "https://github.com/omaralalwi/php-builders/tree/v1.0.1"
+            },
+            "install-path": "../omaralalwi/php-builders"
+        },
+        {
+            "name": "omaralalwi/php-py",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/omaralalwi/php-py.git",
+                "reference": "0a924e329d5e1baffb695f826142e31f28934912"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/omaralalwi/php-py/zipball/0a924e329d5e1baffb695f826142e31f28934912",
+                "reference": "0a924e329d5e1baffb695f826142e31f28934912",
+                "shasum": ""
+            },
+            "require": {
+                "omaralalwi/php-builders": "^1.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "pestphp/pest": "^3.7"
+            },
+            "time": "2025-02-08T14:23:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Omaralalwi\\PhpPy\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "omar alalwi",
+                    "email": "omaralwi2010@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "play with python in PHP applications",
+            "homepage": "https://github.com/omaralalwi/php-py",
+            "keywords": [
+                "DeepSeek-R1",
+                "execute python from php",
+                "omaralalwi",
+                "php exec python script",
+                "php python bridge",
+                "php python integration",
+                "php shell execution",
+                "php-api-server",
+                "php-py",
+                "php-pytho",
+                "python",
+                "python subprocess in php",
+                "python-in-phpg",
+                "python-php",
+                "run python in php",
+                "secure python execution"
+            ],
+            "support": {
+                "issues": "https://github.com/omaralalwi/php-py/issues",
+                "source": "https://github.com/omaralalwi/php-py/tree/v1.0.3"
+            },
+            "install-path": "../omaralalwi/php-py"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "legion/legion",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
+    }
+  },
+  "require": {
+    "omaralalwi/php-py": "^1.0"
+  }
+}
