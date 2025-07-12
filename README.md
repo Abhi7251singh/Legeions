@@ -2,7 +2,7 @@
 
 Legion is a modern Laravel-style MVC framework built for AI-powered full-stack development. It integrates PHP, React.js, and Python with a clean architecture and minimal code.
 
-![Legion Logo](public/legion_home_logo.png)
+![Legion Logo](https://weblytechnolab.com/abhishek/legion_logo_resized.png)
 
 ---
 
